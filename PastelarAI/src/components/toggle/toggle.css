@@ -1,0 +1,31 @@
+.toggle-button {
+    position: relative;
+    width: 30px; /* Adjust width as needed */
+    height: 15px; /* Adjust height as needed */
+    background-color: grey; /* Default background color */
+    border: none; /* Remove button border */
+    border-radius: 8px; /* Add border radius to create a round button */
+    cursor: pointer; /* Show pointer cursor on hover */
+    overflow: hidden; /* Hide overflow content */
+    padding: 2px;
+  }
+  
+  .toggle-button.active {
+    background-color: green; /* Background color when active */
+  }
+  
+  .slider {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px; /* Width of the slider */
+    height: 15px; /* Height of the slider */
+    background-color: white; /* Color of the slider */
+    border-radius: 50%; /* Create a round slider */
+    transition: left 0.3s; /* Smooth transition animation */
+  }
+  
+  .active .slider {
+    left: calc(100% - 15px); /* Position the slider to the right when active */
+  }
+  
