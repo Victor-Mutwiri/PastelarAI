@@ -4,7 +4,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    margin: auto;
+    margin-top: 5rem;
+    width: 500px;
+    /* background: grey; */
 }
 
 .options{
@@ -12,20 +15,71 @@
     background: #F5F5F5;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
     margin-bottom: 1rem;
+    padding: 5px;
+    border-radius: 20px;
+    width: 150px;
+    border: none;
 }
 .Nom{
-    font-size: 1.5rem;
-    font-weight: bold;
     margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1.5px solid grey;
+    padding: 5px;
+    width: 70%;
 }
+.Non::placeholder{
+    text-align: left;
+}
+
+.toggle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    width: 70%;
+    margin-bottom: 1.2rem;
+}
+
 .conservation{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: center;
+    align-content: center;
+    margin-top: 8px;
     gap: 1.5rem;
+    width: 30%;
 }
-.arrows{
+
+.notes{
     display: flex;
     flex-direction: column;
+    width: 70%;
+}
+.notes input{
+    background: #F5F5F5;
+    height: 20vh;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    width: 70%;
+}
+.bottom button{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-right: 1rem;
+}
+.bottom i{
+    /* display: flex; */
+    right: 0;
+    align-self: right;
 }

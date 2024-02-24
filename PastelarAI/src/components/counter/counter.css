@@ -3,4 +3,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap: 0.7rem;
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
+}
+.arrows .bx{
+    font-size: 12px;
 }

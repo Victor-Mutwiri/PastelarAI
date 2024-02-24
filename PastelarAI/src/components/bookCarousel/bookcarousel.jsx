@@ -19,16 +19,16 @@ export const Bookcarousel = () => {
         <h4>Conservation</h4>
         <section className="conservation">
             <Counter/>
-            <select name="" id="">
+            <select name="" className="options">
                 <option value="">Unite</option>
                 <option value="">Unite</option>
             </select>
         </section>
         <section className="notes">
-            <h4>Notes</h4>
+            <h5>Notes</h5>
             <input type="text" />
         </section>
-        <section>
+        <section className='bottom'>
             <button>Annuler</button>
             <i className='bx bxs-right-arrow'/>
         </section>
