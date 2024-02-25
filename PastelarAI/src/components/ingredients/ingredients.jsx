@@ -1,4 +1,4 @@
-
+import './ingredients.css'
 
 export const Ingredients = () => {
   return (
@@ -8,8 +8,8 @@ export const Ingredients = () => {
         <i className='bx bx-search'/>
         <input type="text" />
       </section>
-      <section>
-        <table>
+      <section className="table">
+        <table className='Ingredients-table'>
           <thead>
             <tr>
               <th>Ingredients</th>
@@ -52,6 +52,42 @@ export const Ingredients = () => {
             <tr>
               <td>Ingredient ajoute</td>
               <td>950g</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th>Cout</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0.25</td>
+            </tr>
+            <tr>
+              <td>0.25</td>
+            </tr>
+            <tr>
+              <td>0.25</td>
+            </tr>
+            <tr>
+              <td>0.25</td>
+            </tr>
+            <tr>
+              <td>0.25</td>
+            </tr>
+            <tr>
+              <td>0.25</td>
+            </tr>
+            <tr>
+              <td>0.25</td>
+            </tr>
+            <tr>
+              <td>0.25</td>
+            </tr>
+            <tr>
+              <td>0.25</td>
             </tr>
           </tbody>
         </table>
