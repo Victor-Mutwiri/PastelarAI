@@ -8,6 +8,7 @@
     border-radius: 20px;
     width: 450px;
     margin: auto;
+    background: #fff;
 }
 
 .ingredients h4{
@@ -21,12 +22,10 @@
     justify-content: center;
     align-items: center;
     background: #F5F5F5;
-    /* background: #F5F5F5; */
     width: 200px;
     padding: 5px;
-    /* border: 1px solid #000; */
     border-radius: 15px;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 .ingredients .input i{
     background: #F5F5F5;
@@ -39,26 +38,26 @@
 .table{
     display: flex;
     flex-direction: row;
+    background: #fff;
 }
 .table .Ingredients-table{
     margin-right: 4rem;
     border-collapse: separate;
     border-spacing: 0 10px;
+    background: #fff;
 }
 .Ingredients-table th,
 .Ingredients-table td {
-  padding: 0 10px; /* Padding inside each cell */
+  padding: 0 10px;
 }
 .Ingredients-table td:first-child {
-    border-right: 2px dotted black; /* Dotted line to separate columns */
+    border-right: 2px dotted black;
 }
 
 
 .table .Ingredients-Cout{
     color: grey;
 }
-
-
 
 
 .bx-x{
@@ -69,13 +68,21 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    align-content: flex-start;
-    /* justify-content: center; */
-    margin-top: 3rem;
+    justify-content: left;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.ingredients-bottom button{
+    margin: 0;
+    padding: 0;
+    margin-right: 10rem;
+}
+
 .ingredients-bottom .kg-price{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
+    text-align: center;
 }

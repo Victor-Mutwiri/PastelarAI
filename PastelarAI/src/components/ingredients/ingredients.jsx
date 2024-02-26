@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types';
 import './ingredients.css'
 
-export const Ingredients = () => {
+export const Ingredients = ({toggleSections}) => {
   return (
     <div className="ingredients">
       <h4>Ingredients</h4>
@@ -93,7 +94,7 @@ export const Ingredients = () => {
         </table>
       </section>
       <section className='ingredients-bottom'>
-        <i className='bx bxs-left-arrow'/>
+        <button onClick={toggleSections}><i className='bx bxs-left-arrow'/></button>
         <div className='kg-price'>
           <span>Cout au kg</span>
           <span>3,56€</span>
@@ -102,3 +103,7 @@ export const Ingredients = () => {
     </div>
   )
 }
+
+Ingredients.propTypes = {
+  toggleSections: PropTypes.func.isRequired,
+};
