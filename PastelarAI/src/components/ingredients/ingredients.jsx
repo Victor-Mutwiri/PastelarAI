@@ -55,7 +55,7 @@ export const Ingredients = () => {
             </tr>
           </tbody>
         </table>
-        <table>
+        <table className='Ingredients-Cout'>
           <thead>
             <tr>
               <th>Cout</th>
@@ -63,34 +63,41 @@ export const Ingredients = () => {
           </thead>
           <tbody>
             <tr>
-              <td>0.25</td>
+              <td>0.25 € <i className='bx bx-x'/></td>
             </tr>
             <tr>
-              <td>0.25</td>
+              <td>0.25 € <i className='bx bx-x'/></td>
             </tr>
             <tr>
-              <td>0.25</td>
+              <td>0.25 € <i className='bx bx-x'/></td>
             </tr>
             <tr>
-              <td>0.25</td>
+              <td>0.25 € <i className='bx bx-x'/></td>
             </tr>
             <tr>
-              <td>0.25</td>
+              <td>0.25 € <i className='bx bx-x'/></td>
             </tr>
             <tr>
-              <td>0.25</td>
+              <td>0.25 € <i className='bx bx-x'/></td>
             </tr>
             <tr>
-              <td>0.25</td>
+              <td>0.25 € <i className='bx bx-x'/></td>
             </tr>
             <tr>
-              <td>0.25</td>
+              <td>0.25 € <i className='bx bx-x'/></td>
             </tr>
             <tr>
-              <td>0.25</td>
+              <td>0.25 € <i className='bx bx-x'/></td>
             </tr>
           </tbody>
         </table>
+      </section>
+      <section className='ingredients-bottom'>
+        <i className='bx bxs-left-arrow'/>
+        <div className='kg-price'>
+          <span>Cout au kg</span>
+          <span>3,56€</span>
+        </div>
       </section>
     </div>
   )
