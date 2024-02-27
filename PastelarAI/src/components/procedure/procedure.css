@@ -1,7 +1,6 @@
 .procedure{
     display: flex;
     flex-direction: column;
-    /* border: 1px solid #000; */
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -9,9 +8,15 @@
     height: 100%;
     /* margin: auto; */
 }
+.procedure h4{
+    margin-bottom: 0.4rem;
+}
+.procedure h5{
+    margin-bottom: 1rem;
+}
 .procedure > *:not(ol) {
     border: none;
-  }
+}
 .procedure .list{
     display: flex;
     flex-direction: column;
@@ -28,9 +33,10 @@
     flex-direction: column;
     counter-reset: section;
     content: counter(step-counter);
-    line-height: 30px;
+    line-height: 18px;
     gap: 5px;
     border: none;
+    margin-bottom: 0.6rem;
 }
 
 .custom-counter .procedures{
@@ -40,11 +46,12 @@
 .custom-counter .procedures span{
     border-radius: 25px;
     background: #F5F5F5;
-    width: 450px;
+    width: 400px;
+    height: 4vh;
 }
 
-.bx-plus-circle{
-    margin-top: 1rem;
+.procedure .bx-plus-circle{
+    margin-bottom: 3rem;
 }
 
 .buttons{
@@ -53,6 +60,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin-top: 2.2rem;
 }
 .buttons button{
     border: 1px solid #000;

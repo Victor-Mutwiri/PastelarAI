@@ -15,26 +15,26 @@ const CoverPage = ({ onNextPage }) => {
         </select>
         <input type="text" placeholder="Nom" className="Nom"/>
       </section>
-        <section className='toggle'>
-            <ToggleButton/>
-            <span>Recette utilisee dans d'autres recettes</span>
-        </section>
-        <h4>Conservation</h4>
-        <section className="conservation">
-            <Counter/>
-            <select name="" className="options">
+      <section className='toggle'>
+          <ToggleButton/>
+          <span>Recette utilisee dans d'autres recettes</span>
+      </section>
+      <h4>Conservation</h4>
+      <section className="conservation">
+          <Counter/>
+          <select name="" className="options">
             <option value="">Unite</option>
             <option value="">Unite</option>
-            </select>
-        </section>
-        <section className="notes">
-              <h5>Notes</h5>
-              <input type="text" />
-        </section>
-        <section className='bottom'>
-            <button >Annuler</button>
-            <button onClick={onNextPage}><i className='bx bxs-right-arrow'/></button>
-        </section>
+          </select>
+      </section>
+      <section className="notes">
+            <h4>Notes</h4>
+            <input type="text" />
+      </section>
+      <section className='bottom'>
+          <button >Annuler</button>
+          <button onClick={onNextPage}><i className='bx bxs-right-arrow'/></button>
+      </section>
     </div>
   );
 };

@@ -97,7 +97,7 @@ const Ingredients = ({toggleSections}) => {
         <button onClick={toggleSections}><i className='bx bxs-left-arrow'/></button>
         <div className='kg-price'>
           <span>Cout au kg</span>
-          <span>3,56€</span>
+          <span>3,56 €</span>
         </div>
       </section>
     </div>

@@ -70,7 +70,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
     margin-top: 5rem;
     margin-bottom: 0.3rem;
     padding: 0 20px;
@@ -78,14 +78,17 @@
 
 .ingredients-bottom button{
     margin: 0;
-    /* padding: 0;
-    margin-right: 15rem; */
+    background: #fff;
+    left: 0;
+    margin-right: 10rem;
+}
+.ingredients-bottom i{
+    background: none;
 }
 
 .ingredients-bottom .kg-price{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-left: auto; */
     text-align: center;
 }
