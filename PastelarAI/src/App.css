@@ -1,7 +1,68 @@
-*{
-  box-sizing: border-box;
-  background: #FEF9F2;
+.book-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.body{
-  width: 100%;
+
+.book-container {
+  width: 75%;
+  height: 85%;
+  position: relative;
+  display: flex; /* Ensure the container is a flex container */
+  transition: transform 1.8s ease; /* Add transition for transform property */
+}
+
+.inner-page {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: transform 1.8s ease; /* Add transition for transform property */
+}
+
+.left-page {
+  background-color: #ffffff;
+  border-top-right-radius: 0; /* Adjust border radius to maintain book-like appearance */
+  border-bottom-right-radius: 0; /* Adjust border radius to maintain book-like appearance */
+  border-right: none; /* Remove right border for the left page */
+}
+
+.right-page {
+  background-color: #ffffff;
+  border-top-left-radius: 0; /* Adjust border radius to maintain book-like appearance */
+  border-bottom-left-radius: 0; /* Adjust border radius to maintain book-like appearance */
+  border-left: none; /* Remove left border for the right page */
+}
+
+.cover-page {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border: 1px solid black;
+  border-radius: 15px;
+  position: absolute;
+  right: 0;
+  transition: right 1.8s ease; /* Add transition for right property */
+}
+
+.separation {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: #ccc;
+}
+
+.back-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }

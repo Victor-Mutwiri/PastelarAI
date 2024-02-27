@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './counter.css';
 
-export const Counter = () => {
+const Counter = () => {
     const [number, setNumber] = useState(1);
     const incrementNumber = () => {
     setNumber(prevNumber => prevNumber + 1);
@@ -23,3 +23,4 @@ export const Counter = () => {
     </section>
   )
 }
+export default Counter;

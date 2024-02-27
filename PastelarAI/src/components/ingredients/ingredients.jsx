@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import './ingredients.css'
 
-export const Ingredients = ({toggleSections}) => {
+const Ingredients = ({toggleSections}) => {
   return (
     <div className="ingredients">
       <h4>Ingredients</h4>
@@ -107,3 +107,4 @@ export const Ingredients = ({toggleSections}) => {
 Ingredients.propTypes = {
   toggleSections: PropTypes.func.isRequired,
 };
+export default Ingredients;

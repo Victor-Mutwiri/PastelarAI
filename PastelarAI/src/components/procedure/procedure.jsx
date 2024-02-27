@@ -1,6 +1,6 @@
 import './procedure.css'
 
-export const Procedure = () => {
+const Procedure = () => {
   return (
     <div className='procedure'>
         <h4>Pate a choux</h4>
@@ -59,3 +59,4 @@ export const Procedure = () => {
     </div>
   )
 }
+export default Procedure;
