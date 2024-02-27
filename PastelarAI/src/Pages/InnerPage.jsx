@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
-import Ingredients from './ingredients/ingredients';
-import Procedure from './procedure/procedure';
+import Ingredients from '../components/ingredients/ingredients';
+import Procedure from '../components/procedure/procedure';
 import './InnerPage.css';
 
 const InnerPage = ({ page, onCloseBook, pageNumber }) => {

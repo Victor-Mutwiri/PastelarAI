@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import './CoverPage.css';
-import ToggleButton from './toggle/toggle';
-import Counter from './counter/counter';
+import ToggleButton from '../components/toggle/toggle';
+import Counter from '../components/counter/counter';
 
 const CoverPage = ({ onNextPage }) => {
   return (

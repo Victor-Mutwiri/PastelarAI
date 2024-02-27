@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-import CoverPage from './components/CoverPage';
-import InnerPage from './components/InnerPage';
+import CoverPage from './Pages/CoverPage';
+import InnerPage from './Pages/InnerPage';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);

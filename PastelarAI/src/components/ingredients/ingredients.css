@@ -2,19 +2,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:flex-end;
-    align-self: flex-end;
-    border: 1px solid #000;
+    justify-content:center;
+    /* align-self: flex-end */;
+    /* border: 1px solid #000; */
     border-radius: 20px;
-    width: 400px;
+    /* width: 400px; */
     margin: auto;
     background: #fff;
+    height: 100%;
     padding: 20px;
 }
 
 .ingredients h4{
-    margin-top: 1rem;
-    margin-bottom: 0.8rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 0.5rem;
 }
 
 .ingredients .input{
@@ -23,10 +24,10 @@
     justify-content: center;
     align-items: center;
     background: #F5F5F5;
-    width: 200px;
+    width: 270px;
     padding: 5px;
     border-radius: 15px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .ingredients .input i{
     background: #F5F5F5;
@@ -65,25 +66,26 @@
     color: red;
 }
 
-.ingredients-bottom{
+.ingredients .ingredients-bottom{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: left;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 0.3rem;
+    padding: 0 20px;
 }
 
 .ingredients-bottom button{
     margin: 0;
-    padding: 0;
-    margin-right: 10rem;
+    /* padding: 0;
+    margin-right: 15rem; */
 }
 
 .ingredients-bottom .kg-price{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    /* margin-left: auto; */
     text-align: center;
 }

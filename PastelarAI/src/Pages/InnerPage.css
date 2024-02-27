@@ -1,0 +1,14 @@
+.inner-page {
+    border: 1px solid #C5C3C5; /* Add border */
+    border-radius: 20px; /* Add border radius */
+}
+
+.left-page {
+    border: 1px solid #C5C3C5; /* Add border */
+    border-right-width: 20px; /* Thick right border for page 1 */
+}
+  
+.right-page {
+    border: 1px solid #C5C3C5; /* Add border */
+    border-left-width: 20px; /* Thick left border for page 2 */
+}

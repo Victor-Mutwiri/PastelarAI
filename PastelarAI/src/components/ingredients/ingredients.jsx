@@ -52,7 +52,7 @@ const Ingredients = ({toggleSections}) => {
             </tr>
             <tr>
               <td>Ingredient ajoute</td>
-              <td>950g</td>
+              <td></td>
             </tr>
           </tbody>
         </table>
